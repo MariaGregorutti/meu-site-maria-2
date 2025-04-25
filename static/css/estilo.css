@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    transition: all 0.3s ;
+}
+
+header {
+    background-color: #fa87c1;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: black;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+header nav a:hover {
+    color: mediumvioletred;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    padding-top: 135px;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    color: deeppink;
+}
+
+.banner p {
+    font-size: 1.4em;
+    font-weight: 350;
+    margin-top: 7px;
+}
+
+.banner a {
+    background-color: rgb(239, 58, 154);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.banner a:hover{
+    transform: scale(1.2);
+    
+}
+
+.servicos {
+    background-color:rgb(248, 208, 214);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 1.8em;
+    color: deeppink;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.servicos div {
+    background-color: rgb(242, 178, 187);
+    width: 350px;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 14px;
+    box-shadow: rgb(204, 64, 139) 16px 20px 16px 6px;
+}
+
+.servicos div h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    
+}
